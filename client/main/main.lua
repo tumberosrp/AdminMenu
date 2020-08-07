@@ -15,14 +15,13 @@ Citizen.CreateThread(function() --Main Menu
 			TriggerEvent("FMODT:Title", "~y~~bold~TumberosRP")
 
 			if IsAdmin then
-				TriggerEvent("FMODT:Option", "~y~>> ~s~" .. AdminMenuTitle, function(cb)
 					if (cb) then
 						TriggerServerEvent("GetHost")
 						mainMenu = false
 						adminMenu = true
 					end
-				end)
-			end
+				end
+			
 
 			TriggerEvent("FMODT:Option", "~y~>> ~s~" .. PlayerMenuTitle, function(cb)
 				if (cb) then

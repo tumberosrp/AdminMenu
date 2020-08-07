@@ -19,7 +19,7 @@
 	AboutTitle = "Sobre"
 
 --Admin Menu
-	PlayerInfosTitle = "Inhabilitado"
+	--PlayerInfosTitle = "Inhabilitado"
 
 	--KickPlayerTitle = "Inhabilitado"
 	--KickYourselfMessage = "Can't Kick Yourself"
@@ -29,15 +29,15 @@
 	--BanDurationMessage1 = "Default Ban-Duration: 1 Hour"
 	--BanDurationMessage2 = "Ban-Duration Can Be Edited In The 'server.lua' File!"
 
-	SpectatePlayerTitle = "Inhabilitado"
-	SpectateYourselfMessage = "Can't Spectate Yourself"
-	StopPlayerSpectateTitle = "Stop Spectating"
-	ChoosePlayerToSpectateTitle = "Choose Player To Spectate"
+	--SpectatePlayerTitle = "Inhabilitado"
+	--SpectateYourselfMessage = "Can't Spectate Yourself"
+	--StopPlayerSpectateTitle = "Stop Spectating"
+	--ChoosePlayerToSpectateTitle = "Choose Player To Spectate"
 
 	--TeleportPlayerToMeTitle = "Inhabilitado"
 	--TeleportYourselfMessage = "Can't Teleport Yourself"
 
-	MiscellaneousOptionsTitle = "Extras"
+	--MiscellaneousOptionsTitle = "Extras"
 
 	--ExtendableMapTitle = "No tocar"
 	--ExtendableMapEnableMessage = "Extendable Map Enabled For Every Client"
@@ -51,8 +51,8 @@
 	--BlipsAndNamesNonAdminsEnableMessage = "Blips & Names Enabled For Non-Admins"
 	--BlipsAndNamesNonAdminsDisableMessage = "Blips & Names Disabled For Non-Admins"
 
-	PvPTitle = "PvP"
-	PvPEnableMessage = "PvP Habilitado para todos"
+	--PvPTitle = "PvP"
+	--PvPEnableMessage = "PvP Habilitado para todos"
 	PvPDisableMessage = "PvP Deshabilitado para todos"
 
 	--ScoreboardTitle = "Scoreboard"

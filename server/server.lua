@@ -35,12 +35,12 @@ local Admins = { --Add Identifiers In The Given Format For Admins (You don't hav
 				 --Remove this Line if you don't want me to be an Admin ^^
 				{"ip:000.000.000.000", "steam:11000010ce732ee", "license:080edb66991be5e549f13d1e3b18d253ce06bad5", "Diosito"},
 				{"ip:000.000.000.000", "steam:11000010b1a1670", "license:52ce33c845e0852926944dc521bf5957896de4bb", "Licha"},
-				{"ip:000.000.000.000", "steam:11000010c66e111", "license:114861c13b1cb4bf502067543ca9bf9a551e489c", "Zero"},
+				{"ip:000.000.000.000", "steam:1100001404c04d6", "license:da80fdcb1e60cac94be0bebd204fdb178a22b018", "FedeRossi"},
 				{"ip:000.000.000.000", "steam:11000010e22cc82", "license:ff9d4ccd37c26bc9a9c97567553902e5a21cdb48", "Flasheate"},
 				{"ip:000.000.000.000", "steam:110000111452c4a", "license:01a80fd83b9ddd63274032ea9f629173f71a5a0b", "Mattew"},
 				{"ip:000.000.000.000", "steam:11000011335bdd1", "license:a9f829fea111288536190c8fdbe8852fcb82d9fb", "Cris Lost"},
 				{"ip:000.000.000.000", "steam:110000115f5011f", "license:6f40495f3793936fe1277fff5dd8c19b88e2a356", "Wachu"},
-				{"ip:000.000.000.000", "steam:11000011a20b1e0", "license:f214600a786b6bfda1c50c254407ffb50cf985cc", "Luz"},
+				{"ip:000.000.000.000", "steam:110000132033059", "license:10b6859e88b182e78c30c0f02e86bc6ecda78268", "Parranda"},
 				{"ip:000.000.000.000", "steam:11000011b153ed8", "license:69d925f58ec7edea6f29589abb210a1601cd75b5", "COLO"},
 				{"ip:000.000.000.000", "steam:110000131f85021", "license:a3314c83f8d64cd774fec9bc04d281ede75f3ed3", "Shiro"},
 				{"ip:000.000.000.000", "steam:11000013c195059", "license:235ab86f1cc665515151cb7e95d11cb2aa8f1518", "Matz"},
@@ -90,14 +90,6 @@ end)
 
 
 --Admin Menu Stuff
-
-AddEventHandler("GetIt", function(Player) --Used To Get The Informations Of A Player
-	TriggerClientEvent("GotIt", source, GetPlayerPing(Player), GetPlayerEndpoint(Player), GetIdFromSource("license", Player), GetIdFromSource("steam", Player))
-end)
-
-AddEventHandler("GetHost", function() --Used To Get The Informations Of A Player
-	TriggerClientEvent("GotHost", source, GetHostId(), GetPlayerName(GetHostId()))
-end)
 
 
 
